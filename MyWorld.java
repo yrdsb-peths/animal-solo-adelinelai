@@ -23,7 +23,7 @@ public class MyWorld extends World {
      */
     public void createApple()
     {
-        Apple apple = newApple();
+        Apple apple = new Apple();
         int x = Greenfoot.getRandomNumber(600);
         int y = 0;
         addObject(apple, x, y);
