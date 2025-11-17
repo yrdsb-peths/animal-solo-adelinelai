@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Elephant here.
+ * The Elephant, our hero.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Adeline Lai
+ * @version November 2025
  */
 public class Elephant extends Actor
 {
@@ -13,14 +13,7 @@ public class Elephant extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act()
-    {   
-        if(isTouching(Apple.class)) {
-            
-        }
-    }
-    
-    public void eat() {
-        MyWorld world = (MyWorld) getWorld();
-        world.spawnApple();
+    {
+        move(1);
     }
 }
